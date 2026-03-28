@@ -1,7 +1,7 @@
 # 🧠 Research Portfolio — Ravina Verma
 
 Welcome to my research project portfolio.  
-I am passionate about **Trustworthy NLP, Explainable AI, and Language Model Interpretability**.  
+I am passionate about **Trustworthy and Reliable NLP, Explainable AI, and Language Model Interpretability**.  
 This repository showcases my applied projects, academic experiments, and code implementations in the field of **NLP and Responsible AI**.
 
 ---
