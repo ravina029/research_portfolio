@@ -52,22 +52,6 @@ The project integrates **explainability techniques (LIME, SHAP)** to visualize m
 
 ---
 
-## 🧩 Upcoming / In-Progress Projects
-
-### 1. 🗣️ **Stance Detection using Large Language Models**
-**Goal:** Build a stance detection model leveraging instruction-tuned transformers and attention explainability.  
-**Focus:** Model trust, data bias, and interpretability.
-
-### 2. ⚖️ **Bias Detection and Correction in LLM Outputs**
-**Goal:** Quantify and mitigate gender and political bias in generative responses.  
-**Focus:** Fairness-aware NLP and prompt engineering for debiasing.
-
-### 3. 🔒 **Privacy-Preserving Text Classification**
-**Goal:** Explore differential privacy and knowledge distillation for secure NLP model deployment.  
-**Focus:** Privacy protection in explainable NLP systems.
-
----
-
 ## 🧭 Research Interests
 - Trustworthy & Explainable NLP  
 - Bias & Fairness in Large Language Models  
