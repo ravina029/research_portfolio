@@ -12,6 +12,10 @@ The architecture explicitly separates **generation from verification**, ensuring
 
 ---
 
+#### 📂 Repository Link
+➡️ [View Project on GitHub](https://github.com/ravina029/Maternal_postpartum_rag)
+
+
 ## 1. Problem Formulation
 
 LLMs deployed in healthcare-adjacent settings suffer from:
@@ -222,3 +226,7 @@ Focus areas:
 ## 11. Keywords
 
 Trustworthy NLP, Retrieval-Augmented Generation, Explainable AI, Hallucination Detection, AI Safety
+
+#### 📂 Repository Link
+➡️ [View Project on GitHub](https://github.com/ravina029/Maternal_postpartum_rag)
+
