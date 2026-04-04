@@ -30,7 +30,7 @@ The system combines **document retrieval, grounded response generation, hallucin
 
 ---
 
-### 2. 🎬 **IMDB Sentiment Analysis (Classical ML + Transformer Explainability)**
+### 2. 🎬 **Trustworthy Sentiment Classification: (Classical ML + Transformer Explainability)**
 **Repository:** [IMDB_text_classification](https://github.com/ravina029/IMDB_text_classification)  
 **Tech Stack:** Python · scikit-learn · Transformers · LIME · SHAP · Streamlit  
 **Focus Areas:** Model Explainability · Comparative Evaluation · Deployment  
