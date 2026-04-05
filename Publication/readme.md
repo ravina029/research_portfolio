@@ -1,4 +1,7 @@
 ## 📄 Publications
+**Links:**
+- Paper: [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/84b686f7cc7b7751e9aaac0da74f755a-Paper-Conference.pdf)]
+
 
 ### [Neural Injective Functions for Multisets, Measures and Graphs via a Finite Witness Theorem] — NeurIPS
 
@@ -15,5 +18,3 @@
 - This result highlights a fundamental limitation of moment-based and invariant representations in deep learning.  
 - It provides theoretical insight into why certain architectures may fail to preserve distances despite being expressive.  
 
-**Links:**
-- Paper: [[link](https://proceedings.neurips.cc/paper_files/paper/2023/file/84b686f7cc7b7751e9aaac0da74f755a-Paper-Conference.pdf)]
