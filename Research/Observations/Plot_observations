@@ -1,0 +1,96 @@
+## 📊 Experimental Observations and Research Insights
+
+This section presents a structured analysis of the stability and accuracy behavior of the proposed sorting-based embedding scheme under varying parameters (*n*, *d*, and *D*). The goal is not only to report trends but to extract insights relevant to robustness, scalability, and model sensitivity.
+
+---
+
+### 1. Influence of Sample Size (*n*)
+
+**Stability Behavior:**
+A rapid improvement in stability is observed with increasing sample size during the initial phase. However, beyond a moderate threshold (*n ≈ 20–30*), the stability metric saturates, indicating diminishing marginal gains.
+
+**Research Insight:**
+This suggests that the method is **data-efficient**, achieving reliable stability without requiring large-scale data. However, it also implies **limited scalability benefits**, as increasing data beyond a certain point does not meaningfully enhance performance.
+
+**Accuracy Behavior:**
+Accuracy exhibits a **non-monotonic trend**, with an initial decline followed by partial recovery.
+
+**Interpretation:**
+This behavior indicates **sensitivity to data distribution and potential instability in the embedding process**, challenging the assumption that larger datasets inherently improve predictive performance.
+
+---
+
+### 2. Influence of Embedding Dimension (*d*)
+
+**Stability Behavior:**
+An initial increase in stability is observed as *d* increases (up to ~6), followed by a plateau with mild oscillations.
+
+**Research Insight:**
+This suggests the presence of an **optimal embedding dimension range**, beyond which additional dimensions introduce redundancy rather than meaningful structure.
+
+**Accuracy Behavior:**
+Accuracy fluctuates significantly across different values of *d*, without a clear trend.
+
+**Interpretation:**
+This instability highlights a **lack of robustness with respect to embedding dimensionality**, indicating that performance is highly sensitive to parameter selection. This is a critical limitation for real-world deployment, where stable performance across configurations is expected.
+
+---
+
+### 3. Influence of Parameter (*D*)
+
+**Stability Behavior:**
+A smooth and consistent improvement in stability is observed with increasing *D*, with the metric converging asymptotically.
+
+**Research Insight:**
+Unlike *n* and *d*, parameter *D* demonstrates a **strong and predictable control over stability**, suggesting that it plays a central role in governing the structural behavior of the embedding.
+
+**Accuracy Behavior:**
+Accuracy increases sharply for small values of *D* and quickly reaches near-perfect levels, remaining stable thereafter.
+
+**Interpretation:**
+While this indicates **fast convergence**, it raises important concerns:
+
+* The task may be **too easily separable**, or
+* The model may be **overfitting or exploiting structural shortcuts**
+
+This result requires careful validation to ensure generalization.
+
+---
+
+### 4. Cross-Parameter Insights
+
+* **Early Saturation in Data Regime:**
+  The method achieves stable behavior with relatively small datasets, but does not significantly benefit from additional data.
+
+* **Parameter Sensitivity:**
+  The embedding dimension (*d*) introduces instability in accuracy, indicating that the method lacks robustness across configurations.
+
+* **Dominance of Structural Parameter (*D*):**
+  Among all parameters, *D* emerges as the **primary factor influencing both stability and accuracy**, suggesting that the effectiveness of the method is largely governed by this parameter.
+
+* **Stability–Accuracy Mismatch:**
+  While stability metrics exhibit smooth and interpretable trends, accuracy shows fluctuations. This discrepancy suggests potential **variance in the experimental setup or sensitivity of the evaluation pipeline**.
+
+---
+
+### 5. Limitations and Future Directions
+
+* The absence of variance analysis (e.g., multiple runs, confidence intervals) limits the statistical strength of the conclusions.
+* The near-perfect accuracy for higher *D* values necessitates further investigation to rule out **overfitting or dataset simplicity**.
+* Future work should focus on:
+
+  * Improving **robustness across embedding dimensions**
+  * Conducting **statistical validation**
+  * Evaluating performance on more **complex and diverse datasets**
+
+---
+
+### 6. Summary
+
+Overall, the proposed method demonstrates:
+
+* **Strong data efficiency** (early stabilization with respect to *n*)
+* **Clear structural dependence** on parameter *D*
+* **Sensitivity and instability** with respect to embedding dimension (*d*)
+
+These findings highlight both the **potential and the limitations** of the approach, providing a foundation for further refinement toward robust and generalizable embedding techniques.
