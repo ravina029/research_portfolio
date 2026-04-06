@@ -167,7 +167,7 @@ Two experiments were conducted:
 
 - 📄 Full Thesis: [https://github.com/ravina029/Research_portfolio/blob/main/Research/M.Sc_thesis.pdf]
 - 💻 Code: [https://github.com/ravina029/Research_portfolio/tree/main/Research/Experiments_and%20_observations/Experimetal_code]
-- 📊 Experimental Results: [Optional]
+- 📊 Experimental Results: [https://github.com/ravina029/Research_portfolio/blob/main/Research/Experiments_and%20_observations/Observations]
 
 ---
 
