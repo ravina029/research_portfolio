@@ -35,8 +35,8 @@ This qualification supports my work in:
 
 ### Certificate
 
-📄 [View Official Certificate]((https://github.com/ravina029/Research_portfolio/blob/main/academic_credentials/CSIR_UGC_NET_Ravina_certificate.pdf)
-)
+📄 [View Official Certificate](https://github.com/ravina029/Research_portfolio/blob/main/academic_credentials/CSIR_UGC_NET_Ravina_certificate.pdf)
+
 
 
 
